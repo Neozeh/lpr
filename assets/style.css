@@ -1,0 +1,50 @@
+:root{
+    --primary: #F61067;
+    --secondary-100: #5E2390;
+    --secondary-200: #3A0475;
+    --secondary-300: #30124E;
+    --secondary-400: #150433;
+
+    --tetriary: #00F0B5;
+    --tetriary-light: #6DECAF;
+    --white: #FCFCFC;
+    --light-grey: #F4F4ED;
+    --headers: #30233D;
+    --main-text: #776CB2;
+    --grey: #9B94A3;
+
+    --error: #F0002B;
+    --success: #10F65E;
+    --warning: #F67110;
+    --info: #00A8F0;
+
+    --shadow-violet: 0px 8px 64px rgba(94, 35, 157, 0.25);
+    --shadow-green: 0px 8px 64px rgba(0, 240, 181, 0.25);
+    --shadow--pink: 0px 8px 64px rgba(246, 16, 103, 0.25);
+
+
+
+}
+
+.button{
+    display: block;
+    width: fit-content;
+    height: 45px;
+    line-height: 45px;
+    box-sizing: border box;
+    padding: 0 45px;
+    background: var(--primary);
+
+    border: none;
+    border-radius: 100px;
+
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--white);
+    text-decoration: none;
+
+    cursor: pointer; 
+
+}
